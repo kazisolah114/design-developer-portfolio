@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-btn {
+    width: 120px;
+    height: 44px;
+    background: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.main-header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Header section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 220px;
+    
+}
+.title-header{
+    font-size: 45;
+    font-weight: 800;
+}
+.title-header span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Banner section */
+.banner-section{
+    margin: 0 226px;
+    display: flex;
+    align-items: center;
+}
+.banner-section .banner-content{}
+.banner-section .banner-content h2{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-section .banner-content h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.banner-section .banner-content p {
+    color: #757575;
+    margin-bottom: 30px;
+    width: 80%;
+}
+.banner-section img {
+    margin-right: -170px;
+}
+
+/* About me section */
+.aboutme-sect {
+    background: #FFF8F3;
+    padding: 130px 150px;
+    margin: 130px 50px;
+    border-radius: 5px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.aboutme-sect p{
+    text-align: center;
+}
+.aboutme-sect .section-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.aboutme-sect .section-data .sdata{}
+.aboutme-sect .section-data .sdata p{}
+.aboutme-sect .section-data .sdata h5{}
+
+
+/* What I do section */
+.whati-do-sect{
+    margin-bottom: 50px;
+}
+.whati-do-sect p {
+    padding: 0 150px;
+    text-align: center;
+}
+.whati-do-sect .my-skills {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 25px;
+}
+.whati-do-sect .my-skills .skill {
+    box-shadow: 3px 2px 7px #dfdfdf;
+    padding: 35px;
+    background: #fff;
+    border-radius: 5px;
+}
+.whati-do-sect .my-skills .skill img {
+    width: 35px;
+}
+.whati-do-sect .my-skills .skill h2 {
+    margin: 20px 0;
+    font-size: 17px;
+}
+.whati-do-sect .my-skills .skill p {
+    padding: 0;
+    text-align: left;
+}
+
+
+/* Resme sect */
+.resume-sect {
+    margin: 100px 0;
+}
+.resume-sect button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.resume-sect .resume-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.resume-sect .resume-container .resume-edu {
+    width: 40%;
+}
+.resume-sect .resume-container .resume-edu .resume-edu-info {
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+        margin-top: 40px;
+}
+.resume-sect .resume-container .resume-edu .resume-edu-info:last-child{
+    border-bottom:none;
+}
+.resume-sect .resume-container .resume-edu .resume-edu-info h3 {
+    margin-bottom: 20px;
+    color: #474747;
+}
+.resume-sect .resume-container .resume-edu .resume-edu-info h5 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #474747;
+}
+.resume-sect .resume-container .resume-edu .resume-edu-info span {
+    color: #757575;
+    font-weight: 600;
+    font-size: 15px;
+}
+.resume-sect .resume-container .resume-edu .resume-edu-info p {
+    margin-top: 20px;
+    color: #757575;
+}
+.resume-sect .resume-container .resume-exper{
+    width: 40%;
+}
+.resume-sect .resume-container .resume-exper .resume-exper-info{
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+        margin-top: 40px;
+}
+.resume-sect .resume-container .resume-exper .resume-exper-info:last-child{
+    border-bottom: none;
+}
+.resume-sect .resume-container .resume-exper .resume-exper-info h3{
+     margin-bottom: 20px;
+    color: #474747;
+}
+.resume-sect .resume-container .resume-exper .resume-exper-info h5{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #474747;
+}
+.resume-sect .resume-container .resume-exper .resume-exper-info span{
+    color: #757575;
+    font-weight: 600;
+    font-size: 15px;
+}
+.resume-sect .resume-container .resume-exper .resume-exper-info p{
+    margin-top: 20px;
+    color: #757575;
+}
+
+/* Contact SEction */
+.contact-sect {
+    background: #FFF8F3;
+    padding: 130px 200px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.contact-sect .contact-side {
+    width: 40%;
+}
+.contact-sect .contact-side h3 {
+    font-size: 23px;
+}
+.contact-sect .contact-side p {
+    color: #474747;
+    margin: 20px 0;
+    font-size: 13px;
+}
+.contact-sect .contact-side ul {
+    display: flex;
+}
+.contact-sect .contact-side ul li {
+    list-style: none;
+    padding-right: 20px;
+}
+.contact-sect .contact-side ul li a {
+    color: #FD6E0A;
+}
+.contact-sect .contact-side ul li a i{}
+.contact-sect .form-side {
+    width: 40%;
+}
+.contact-sect .form-side h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.contact-sect .form-side form{}
+.contact-sect .form-side form input {
+    display: block;
+    margin-bottom: 20px;
+    width: 65%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.contact-sect .form-side form textarea {
+    border: none;
+    width: 65%;
+    height: 100px;
+    padding: 5px 10px;
+}
+.contact-sect .form-side form input[type="submit"] {
+    width: 110px;
+    margin-top: 10px;
+}
