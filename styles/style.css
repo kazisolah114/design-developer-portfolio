@@ -4,7 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .main-btn {
-    width: 120px;
+    width: 135px;
     height: 44px;
     background: #FD6E0A;
     border: none;
@@ -60,6 +60,18 @@ nav ul li a{
     align-items: center;
 }
 .banner-section .banner-content{}
+.banner-section .banner-content .buttons{}
+.banner-section .banner-content .buttons .outline-btn {
+    height: 44px;
+    width: 135px;
+    color: #FD6E0A;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+}
 .banner-section .banner-content h2{
     font-size: 45px;
     color: #474747;
